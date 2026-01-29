@@ -1,5 +1,5 @@
 const CTASection = () => {
-  const whatsappUrl = "https://wa.me/6386005089?text=I%20want%20to%20discuss%20my%20perfect%20Banarasi%20saree";
+  const whatsappUrl = "https://wa.me/6386005089?text=I%20want%20to%20discuss%20my%20perfect%20Banarasi%20silk%20saree%20with%20Modern%20Silk%20Arts";
 
   return (
     <section className="py-40 px-8 bg-cream relative overflow-hidden">
