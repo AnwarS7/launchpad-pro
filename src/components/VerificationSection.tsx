@@ -49,6 +49,11 @@ const stats: StatItem[] = [
     label: 'Investment, Not Expense',
     sublabel: 'Heirlooms appreciate. You become a keeper of heritage.',
   },
+  {
+    value: '1000+',
+    label: 'Masterpieces Delivered',
+    sublabel: 'Cherished by families across generations. Your legacy awaits.',
+  },
 ];
 
 const VerificationSection = () => {
