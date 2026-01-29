@@ -17,7 +17,12 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div>
-            <p className="font-serif text-lg mb-2">The Loom Masters</p>
+            <div className="flex items-center gap-3 mb-2">
+              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-gold to-gold/70 flex items-center justify-center">
+                <span className="text-charcoal font-serif text-sm font-semibold">M</span>
+              </div>
+              <p className="font-serif text-lg">Modern Silk Arts</p>
+            </div>
             <p className="text-label text-charcoal/60">Est. 1960, Varanasi</p>
           </div>
 
@@ -50,9 +55,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="text-label text-charcoal/40 mb-4">Heritage</p>
+            <p className="text-label text-charcoal/40 mb-4">Banarasi Heritage</p>
             <p className="text-label text-charcoal/60">
-              Banarasi Legacy
+              Authentic Banarasi Legacy
               <br />
               Handwoven since 1960
               <br />
@@ -63,7 +68,7 @@ const Footer = () => {
 
         <div className="border-t border-charcoal/5 pt-8 text-center">
           <p className="text-label text-charcoal/50">
-            © 2026 The Loom Masters. Every saree is a statement. Every patron becomes family.
+            © 2026 Modern Silk Arts. Every saree is a statement. Every patron becomes family.
           </p>
         </div>
       </div>
