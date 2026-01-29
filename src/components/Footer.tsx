@@ -44,25 +44,40 @@ const Footer = () => {
 
           <div>
             <p className="text-label text-charcoal/40 mb-4">Direct Connection</p>
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block font-serif text-lg font-semibold text-charcoal bg-gold px-6 py-2 hover:bg-charcoal hover:text-gold transition-all duration-300"
-            >
-              Start on WhatsApp
-            </a>
+            <div className="space-y-3">
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block font-serif text-lg font-semibold text-charcoal bg-gold px-6 py-2 hover:bg-charcoal hover:text-gold transition-all duration-300"
+              >
+                Start on WhatsApp
+              </a>
+              <div className="text-body text-charcoal/70">
+                <p className="font-semibold">Phone:</p>
+                <a href="tel:+916386005089" className="hover:text-charcoal transition-colors">
+                  +91 63860 05089
+                </a>
+              </div>
+            </div>
           </div>
 
           <div>
-            <p className="text-label text-charcoal/40 mb-4">Banarasi Heritage</p>
-            <p className="text-label text-charcoal/60">
-              Authentic Banarasi Legacy
-              <br />
-              Handwoven since 1960
-              <br />
-              Direct to You
+            <p className="text-label text-charcoal/40 mb-4">Visit Us</p>
+            <p className="text-label text-charcoal/60 mb-3">
+              K 49/50, Hartirath Rd,<br />
+              Ambiya Mandi,<br />
+              Chittanpura, PILIKOTHI,<br />
+              Varanasi, Uttar Pradesh 221002
             </p>
+            <a
+              href="https://maps.app.goo.gl/GdH5jrcM6QhTXYKY6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-body text-gold hover:text-charcoal transition-colors font-semibold"
+            >
+              View on Maps →
+            </a>
           </div>
         </div>
 
