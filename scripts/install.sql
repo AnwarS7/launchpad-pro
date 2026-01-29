@@ -1,0 +1,2 @@
+-- This script triggers npm install to regenerate package-lock.json
+-- Run: npm install
