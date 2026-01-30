@@ -3,13 +3,6 @@ interface CollectionItem {
   description: string;
   price: string;
   lead: string;
-}
-
-interface CollectionItem {
-  name: string;
-  description: string;
-  price: string;
-  lead: string;
   image: string;
 }
 
