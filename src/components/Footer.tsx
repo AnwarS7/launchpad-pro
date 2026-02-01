@@ -1,3 +1,5 @@
+import { Phone, Mail } from 'lucide-react';
+
 interface FooterLink {
   href: string;
   label: string;
@@ -53,8 +55,14 @@ const Footer = () => {
               >
                 Start on WhatsApp
               </a>
-              <div className="text-body text-charcoal/70">
-                <p className="font-semibold">Phone:</p>
+              <div className="flex items-center gap-2 text-body text-charcoal/70">
+                <Mail className="w-4 h-4 text-gold" />
+                <a href="mailto:info@modernsilkart.com" className="hover:text-charcoal transition-colors">
+                  info@modernsilkart.com
+                </a>
+              </div>
+              <div className="flex items-center gap-2 text-body text-charcoal/70">
+                <Phone className="w-4 h-4 text-gold" />
                 <a href="tel:+916386005089" className="hover:text-charcoal transition-colors">
                   +91 63860 05089
                 </a>
