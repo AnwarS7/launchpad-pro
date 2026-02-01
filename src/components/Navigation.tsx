@@ -14,17 +14,17 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0 w-full z-40 px-8 py-6 flex justify-between items-center bg-cream/80 backdrop-blur-sm border-b border-charcoal/5">
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-2">
         {/* Animated Loom Logo */}
-        <div className="w-14 h-14 loom-needle-animate flex-shrink-0">
+        <div className="w-16 h-16 loom-needle-animate flex-shrink-0 bg-cream rounded-lg p-1 border border-charcoal/10">
           <img 
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/favicon-32x32-mHBwe07XVMbWxanERJpgVnQ6IQIdhc.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/android-chrome-192x192-siqbJWvn3uDLGSlyqOUFIMUfPKrNze.png"
             alt="Modern Silk Arts Logo"
             className="w-full h-full"
           />
         </div>
         <div className="hidden sm:block">
-          <p className="font-serif text-sm tracking-wide text-charcoal">Modern Silk Arts</p>
+          <p className="font-serif text-xs tracking-wider text-charcoal">MODERN<br/>SILK ARTS</p>
         </div>
       </div>
 
