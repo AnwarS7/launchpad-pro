@@ -14,25 +14,25 @@ const Hero = () => {
       </div>
 
       <div className="max-w-4xl mx-auto text-center space-y-12 reveal-scroll relative z-10">
-        <div className="hero-anim silk-float opacity-0 translate-y-10" style={{ animationDelay: '0.1s' }}>
+        <div className="silk-float" style={{ animationDelay: '0.1s' }}>
           <span className="text-label text-gold">Est. 1960 • Varanasi</span>
         </div>
 
-        <div className="hero-anim silk-float opacity-0 translate-y-10" style={{ animationDelay: '0.2s' }}>
+        <div className="silk-float" style={{ animationDelay: '0.2s' }}>
           <h1 className="text-display">
             One Hundred Sixty Eight Hours of{' '}
             <span className="text-gold fabric-glow inline-block">Pure Silk</span>
           </h1>
         </div>
 
-        <div className="hero-anim silk-float opacity-0 translate-y-10" style={{ animationDelay: '0.3s' }}>
+        <div className="silk-float" style={{ animationDelay: '0.3s' }}>
           <p className="text-body text-charcoal/70 max-w-2xl mx-auto text-lg">
             A single saree. Seven days of hand-weaving. Five generations of unwavering precision.
             No shortcuts. No industrial looms. Just the mathematics of beauty.
           </p>
         </div>
 
-        <div className="hero-anim silk-float opacity-0 translate-y-10 pt-8" style={{ animationDelay: '0.4s' }}>
+        <div className="silk-float pt-8" style={{ animationDelay: '0.4s' }}>
           <a
             href={whatsappUrl}
             target="_blank"
