@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-cream via-cream/50 to-cream/80" />
       </div>
 
-      <div className="max-w-4xl mx-auto text-center space-y-12 reveal-scroll relative z-10">
+      <div className="max-w-4xl mx-auto text-center space-y-12 reveal-scroll relative z-10 pt-20">
         <div className="silk-float" style={{ animationDelay: '0.1s' }}>
           <span className="text-label text-gold">Est. 1960 • Varanasi</span>
         </div>
