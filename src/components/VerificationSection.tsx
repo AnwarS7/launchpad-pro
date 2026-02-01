@@ -7,8 +7,8 @@ interface TrustItem {
 const trustItems: TrustItem[] = [
   {
     icon: '✓',
-    title: 'Pure Silk Certification',
-    desc: '100% verified materials with laboratory testing documentation',
+    title: 'Pure Silk Promise',
+    desc: 'Five generations of expertise. We stake our reputation on 100% authentic Banarasi silk, verified through our master craftsmen.',
   },
   {
     icon: '▶',
