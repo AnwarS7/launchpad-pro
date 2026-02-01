@@ -14,14 +14,14 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0 w-full z-40 px-8 py-6 flex justify-between items-center bg-cream/80 backdrop-blur-sm border-b border-charcoal/5">
-      <div className="flex items-center gap-3">
-        {/* Logo Mark */}
-        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-gold to-gold/70 flex items-center justify-center shadow-gold">
-          <span className="text-charcoal font-serif text-lg font-semibold">M</span>
-        </div>
-        <div className="font-serif text-lg tracking-tight">
-          <span className="text-charcoal">Modern</span>{' '}
-          <span className="text-gold">Silk Arts</span>
+      <div className="flex items-center gap-2">
+        {/* Animated Loom Logo */}
+        <div className="w-12 h-12 loom-needle-animate">
+          <img 
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/favicon-32x32-mHBwe07XVMbWxanERJpgVnQ6IQIdhc.png"
+            alt="Modern Silk Arts Logo"
+            className="w-full h-full"
+          />
         </div>
       </div>
 

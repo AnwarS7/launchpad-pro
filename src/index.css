@@ -270,6 +270,17 @@
   }
 }
 
+@keyframes loomNeedlePass {
+  0%, 100% {
+    transform: translateX(-2px) translateY(-2px) rotate(45deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(2px) translateY(2px) rotate(45deg);
+    opacity: 0.7;
+  }
+}
+
 .silk-float {
   animation: silkFloat 1s ease-out forwards;
 }
@@ -291,4 +302,8 @@
 
 .fabric-glow {
   animation: fabricGlow 3s ease-in-out infinite;
+}
+
+.loom-needle-animate {
+  animation: loomNeedlePass 2.5s ease-in-out infinite;
 }
